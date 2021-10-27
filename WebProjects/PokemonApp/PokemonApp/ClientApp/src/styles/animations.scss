@@ -1,0 +1,50 @@
+@import './variables.scss';
+
+.close-pokemon-search-bar {
+    animation: searchBarCloseAnimation 1s 1;
+    border: 1px solid black;
+    // width: 20% !important;
+}
+
+.expanded-pokemon-search-bar {
+    animation: searchBarOpenAnimation 1s 1;
+    border: 1px solid black;
+}
+
+.pokemon-search-bar {
+    animation: none;
+}
+
+.search-bar-input-hidden {
+    width: 30%;
+    animation: searchBarCloseAnimation 1s 1 forwards;
+}
+
+.search-bar-input-expanded {
+    display: block;
+    width: 30%;
+    animation: searchBarOpenAnimation 1s 1;
+}
+
+.form-control-hidden {
+    visibility: hidden;
+}
+
+@keyframes searchBarOpenAnimation {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+@keyframes searchBarCloseAnimation {
+    0% {
+        width: 30%;
+    }
+    100% {
+        width: 0%;
+        display: none;
+    }
+}

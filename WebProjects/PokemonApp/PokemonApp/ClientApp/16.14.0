@@ -1,0 +1,8 @@
++ react-dom@16.14.0
+updated 3 packages and audited 1698 packages in 9.219s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+found 8 vulnerabilities (6 moderate, 2 high)
+  run `npm audit fix` to fix them, or `npm audit` for details

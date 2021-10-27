@@ -1,0 +1,11 @@
+@import './variables.scss';
+
+.pokemon-details-card {
+    background: $primary-gradient-darker;
+    border-radius: 10px;
+}
+
+.pokemon-details-title-name {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+}

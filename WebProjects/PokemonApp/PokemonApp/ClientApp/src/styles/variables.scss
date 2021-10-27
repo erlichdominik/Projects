@@ -1,0 +1,4 @@
+$primary-gradient: linear-gradient(121deg, rgba(181, 234, 234, 1) 0%, rgba(237, 246, 229, 1) 100%);
+$first-color-darker: darken(rgb(181, 234, 234), 5%);
+$second-color-darker: darken(rgb(237, 246, 229), 5%);
+$primary-gradient-darker: linear-gradient(60deg, $first-color-darker 0%, $second-color-darker 100%);
